@@ -7,6 +7,9 @@
   "cinatra": {
     "apiVersion": "cinatra.ai/v1",
     "kind": "skill",
-    "dependencies": []
+    "dependencies": [],
+    "capabilities": {
+      "widget-chat.drupal-content-editor": "drupal-widget-chat"
+    }
   }
 }
