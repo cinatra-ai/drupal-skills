@@ -2,6 +2,9 @@
   "name": "@cinatra-ai/drupal-skills",
   "version": "0.1.0",
   "license": "Apache-2.0",
+  "files": [
+    "skills"
+  ],
   "description": "Cinatra Drupal in-CMS chat widget skill — the system prompt that decides when to call the Drupal content-editor tool vs. answer conversationally. Registered into the skills catalog at workspace level.",
   "type": "module",
   "cinatra": {
