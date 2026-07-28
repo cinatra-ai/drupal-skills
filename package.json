@@ -1,16 +1,17 @@
 {
-  "name": "@cinatra-ai/drupal-skills",
-  "version": "0.1.1",
+  "name": "@cinatra-ai/drupal-widget-chat-skill",
+  "version": "0.2.0",
   "license": "Apache-2.0",
   "files": [
     "skills"
   ],
-  "description": "Cinatra Drupal in-CMS chat widget skill — the system prompt that decides when to call the Drupal content-editor tool vs. answer conversationally. Registered into the skills catalog at workspace level.",
+  "description": "System prompt for the Cinatra Drupal in-CMS chat widget — the prompt that decides when to call the Drupal content-editor tool vs. answer conversationally, and how to summarize a tool result in plain English. The single home of the Drupal widget-chat bundle.",
   "type": "module",
   "cinatra": {
     "apiVersion": "cinatra.ai/v1",
     "kind": "skill",
-    "displayName": "Drupal Skills",
+    "displayName": "Drupal Widget Chat Skill",
+    "skillRole": "injectable",
     "dependencies": [],
     "capabilities": {
       "widget-chat.drupal-content-editor": "drupal-widget-chat"
